@@ -30,14 +30,14 @@ npm i -D prettier @hhp-tools/prettier-config
 }
 ```
 
-## `eslint-ts` 配置
+## `eslint` 配置
 
-[@hhp-tools/eslint-config-ts](https://tools.hhp1614.top/tools/libs/eslint-config-ts.html)
+[@hhp-tools/eslint-config](https://tools.hhp1614.top/tools/libs/eslint-config.html)
 
 ### 安装
 
 ```sh
-npm i -D eslint @hhp-tools/eslint-config-ts
+npm i -D eslint @hhp-tools/eslint-config
 ```
 
 ### 使用
@@ -47,7 +47,7 @@ npm i -D eslint @hhp-tools/eslint-config-ts
 ```json
 {
   "eslintConfig": {
-    "extends": ["@hhp-tools/eslint-config-ts"]
+    "extends": ["@hhp-tools/eslint-config"]
   }
 }
 ```
@@ -56,6 +56,6 @@ npm i -D eslint @hhp-tools/eslint-config-ts
 
 ```json
 {
-  "extends": "@hhp-tools/eslint-config-ts"
+  "extends": "@hhp-tools/eslint-config"
 }
 ```
