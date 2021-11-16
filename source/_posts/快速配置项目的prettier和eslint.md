@@ -1,8 +1,8 @@
 ---
-title: 快速配置项目的 prettier 和 eslint
-date: 2021-08-17 14:57:10
-tags:
-  - 配置
+title: 快速配置项目的 prettier 和 eslint date: 2021-08-17 14:57:10 tags:
+
+- 配置
+
 ---
 
 # 快速配置项目的 prettier 和 eslint
@@ -26,7 +26,7 @@ npm i -D prettier @hhp-tools/prettier-config
 
 ```json
 {
-  "prettier": "@hhp-tools/prettier-config"
+    "prettier": "@hhp-tools/prettier-config"
 }
 ```
 
@@ -46,9 +46,11 @@ npm i -D eslint @hhp-tools/eslint-config
 
 ```json
 {
-  "eslintConfig": {
-    "extends": ["@hhp-tools/eslint-config"]
-  }
+    "eslintConfig": {
+        "extends": [
+            "@hhp-tools/eslint-config"
+        ]
+    }
 }
 ```
 
@@ -56,6 +58,6 @@ npm i -D eslint @hhp-tools/eslint-config
 
 ```json
 {
-  "extends": "@hhp-tools/eslint-config"
+    "extends": "@hhp-tools/eslint-config"
 }
 ```
