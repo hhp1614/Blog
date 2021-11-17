@@ -1,5 +1,5 @@
 ---
-title: 快速配置项目的 prettier 和 eslint
+title: 从零开发一个简单的 H5 游戏的 JS SDK
 date: 2021-11-16 19:02:10
 tags:
     - JS
