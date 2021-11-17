@@ -149,7 +149,6 @@ window.addEventListener('message', e => {
 最后，这是研发方的页面，需要在页面引入 `sdk.js`，这个文件需要渠道方开发，然后调用这个文件里的方法
 
 ```html
-<iframe src="./game.html"></iframe>
 <script src="./sdk.js"></script>
 <script>
     // 这段代码用来测试，看到这应该明白，sdk.js 需要暴露 init，login，pay 三个方法出来供研发方调用
