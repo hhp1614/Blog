@@ -54,7 +54,7 @@ H5SDK 一般是由渠道方开发，提供登录、支付等服务给研发方�
 我们先实现一下 `index.js`
 
 ```js
-// 封装一下给 sdk.js 发生信息的方法
+// 封装一下给 sdk.js 发送信息的方法
 const postMsg = (action, data) => {
     const gameFrame = document.getElementById('game_frame');
     const postData = { action, data };
