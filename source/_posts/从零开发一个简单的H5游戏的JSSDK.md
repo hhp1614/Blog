@@ -1,6 +1,6 @@
 ---
 title: 快速配置项目的 prettier 和 eslint
-date: 2021-11-17 19:02:10
+date: 2021-11-16 19:02:10
 tags:
     - JS
 ---
