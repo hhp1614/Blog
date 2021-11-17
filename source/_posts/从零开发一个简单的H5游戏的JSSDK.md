@@ -1,3 +1,10 @@
+---
+title: 快速配置项目的 prettier 和 eslint
+date: 2021-11-17 19:02:10
+tags:
+    - JS
+---
+
 # 从零开发一个简单的 H5 游戏的 JS SDK
 
 H5SDK 一般是由渠道方开发，提供登录、支付等服务给研发方使用
@@ -62,9 +69,9 @@ const postMsg = (action, data) => {
 
 // 监听子页面传过来的信息
 window.addEventListener('message', e => {
-    const data = e.data;
-    const action = data.action ? data.action : '';
-    const data = data.data ? data.data : {};
+    const ed = e.data;
+    const action = ed.action ? ed.action : '';
+    const data = ed.data ? ed.data : {};
     if (!action) {
         return;
     }
@@ -112,9 +119,9 @@ window.SDK = {
 
 // 接收父页面传过来的信息
 window.addEventListener('message', e => {
-    const data = e.data;
-    const action = data.action ? data.action : '';
-    const data = data.data ? data.data : {};
+    const ed = e.data;
+    const action = ed.action ? ed.action : '';
+    const data = ed.data ? ed.data : {};
     // 如果 action 不存在，就不做任何操作
     if (!action) {
         return;

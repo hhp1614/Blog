@@ -1,8 +1,8 @@
 ---
-title: 快速配置项目的 prettier 和 eslint date: 2021-08-17 14:57:10 tags:
-
-- 配置
-
+title: 快速配置项目的 prettier 和 eslint
+date: 2021-08-17 14:57:10
+tags:
+    - 配置
 ---
 
 # 快速配置项目的 prettier 和 eslint
